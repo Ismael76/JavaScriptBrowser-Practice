@@ -1,3 +1,8 @@
+body {
+  font-size: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 ul {
   display: flex;
   justify-content: center;
@@ -6,4 +11,56 @@ ul {
 li {
   list-style: none;
   margin: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+
+.radiobtn-container {
+  font-size: 1.4rem;
+  margin: 1.1rem 1rem;
+}
+
+.radiomain-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input[type="text"],
+textarea {
+  padding: 0.5rem 0.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 5px;
+}
+
+#submitbtn {
+  padding: 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  background-color: lightgray;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.card-greeting {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
