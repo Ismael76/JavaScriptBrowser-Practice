@@ -1,0 +1,31 @@
+{
+  "name": "day3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": "watchify ./index.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ismael76/JavaScriptInBrowser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ismael76/JavaScriptInBrowser/issues"
+  },
+  "homepage": "https://github.com/Ismael76/JavaScriptInBrowser#readme",
+  "devDependencies": {
+    "watchify": "^4.0.0"
+  },
+  "dependencies": {
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1"
+  },
+  "jest":{
+    "testEnvironment": "jsdom"
+}
+}
